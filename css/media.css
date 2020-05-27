@@ -1,0 +1,146 @@
+@media screen and (max-width: 1024px) {
+	header a.number {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	header {
+		justify-content: space-between !important;
+	}
+
+	header .logo {
+		display: block;
+		margin: 1em 1em;
+	}
+
+	header .main-menu a.menu-trigger {
+		display: block;
+		top: .3em;
+		font-size: 2.5em;
+		color: white !important;
+		padding: 0 .25em;
+		margin-right: .5em;
+	}
+
+	header.sticky .main-menu a.menu-trigger {
+		top: .25em;
+		transition: .25s;
+	}
+
+	header.sticky .main-menu a.menu-trigger:hover,
+	header.sticky .main-menu a.menu-trigger:active {
+		border: none;
+		background-color: transparent;
+	}
+	
+	header .main-menu ul {
+		display: none;
+		position: fixed;
+		top: 6em;
+		z-index: 40;
+		right: 0;
+		width: 100%;
+		background-color: white;
+	}
+
+	header.sticky .main-menu ul {
+		top: 5.75em;
+	}
+
+	header .main-menu ul li {
+		display: block;
+		text-align: right;
+		margin: 0;
+		padding: 0;
+	}
+
+	header .main-menu ul li a {
+		color: #13528a;
+	}
+
+	header .main-menu ul li a:active {
+		color: white !important;
+		background-color: #13528a !important;
+	}
+	
+	header .main-menu ul li:hover {
+		background-color: #13528a;
+	}
+
+	header .main-menu ul li:hover > a {
+		color: white;
+	}
+
+	header .main-menu ul a,
+	header .main-menu ul a:hover {
+		padding: 1em;
+		display: block;
+		border: none;
+	}
+
+	.contacts-items {
+		display: grid;
+		grid-template-columns: auto;
+		margin-top: 1.5em;
+	}
+
+	.contacts-item {
+		margin: 1em 0;
+		width: 100% !important;
+	}
+}
+
+@media screen and (max-width: 885px) {
+	.services-items {
+		display: grid;
+		grid-template-columns: auto;
+		margin-top: 1.5em;
+	}
+
+	.services-item {
+		margin: 1em 0;
+		width: 100% !important;
+	}
+
+	a.btn {
+		width: 75%;
+	}
+}
+
+@media screen and (max-width: 655px) {
+	.items {
+		display: grid;
+		grid-template-columns: auto;
+		margin-top: 1.5em;
+	}
+
+	.item {
+		margin: 1em 0;
+		width: 100% !important;
+	}
+
+	.about .about-items .about-item p {
+		text-align: center;
+	}
+
+	.about .about-items .about-item a.btn {
+		width: 100%;
+	}
+
+	.price .price-items .price-item {
+		width: 100% !important;
+		margin: 1em 0;
+		display: block;
+	}
+
+	.price .price-items .price-item h3 {
+		margin: 0 2.5em;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.price .price-items .price-item h3 {
+		margin: 0 1em;
+	}
+}

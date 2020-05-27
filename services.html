@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="theme-color" content="#13528a">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<title>TRAFT - транспортно-логистическая компания</title>
+	<link href="img/icon1.png" rel="shortcut icon">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+	<link rel="stylesheet" type="text/css" href="slick/slick.css">
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+</head>
+<body>
+	<main>
+		<header class="d-flex" id="header">
+			<div id="logo">
+				<a href="#preview" class="logo">
+					<img src="img/logo.png" class="icon-bg">
+				</a>
+			</div>
+			<nav class="main-menu" id="main-menu">
+				<a href="#" class="menu-trigger">&#9776;</a>
+				<ul class="d-flex">
+					<li><a href="#services">Услуги</a></li>
+					<li><a href="#about">О нас</a></li>
+					<li><a href="#team">Наша команда</a></li>
+					<li><a href="#testimotials">Отзывы</a></li>
+					<li><a href="#contacts">Контакты</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div class="block services" id="services">
+			<div class="wrapper">
+				<span class="foreword">Услуги</span>
+				<hr>
+				<h2>Чем занимается наша компания</h2>
+				<div class="services-items items">
+					<div class="services-item item">
+						<img src="img/pereezd.png" class="icon">
+						<h3>Квартирный, дачный и офисный переезд</h3>
+						<p>Собираетесь переезжать? «Трафт» возьмёт на себя все хлопоты квартирного переезда недорого: упаковка, погрузка, перевозка</p>
+						<span>от 5000 р.</span>
+					</div>
+					<div class="services-item item">
+						<img src="img/stroymateriali.png" class="icon">
+						<h3>Перевозка бытовой техники, стройматериалов и мебели</h3>
+						<p>Поможем перевезти мебель в любое место, в любое время по выгодной цене! Приятным бонусом станет бесплатная страховка</p>
+						<span>от 7000 р.</span>
+					</div>
+					<div class="services-item item">
+						<img src="img/arenda.png" class="icon">
+						<h3>Аренда транспортного средства</h3>
+						<p>Мы предлагаем надёжные услуги по аренде спецтехники в Москве и МО, при этом все работы по обслуживанию берём на себя.</p>
+						<span>от 10000 р.</span>
+					</div>
+				</div>
+				<div class="services-items items">
+					<div class="services-item item">
+						<img src="img/gruzcik.png" class="icon">
+						<h3>Услуги грузчиков</h3>
+						<p>«Трафт» помогает вывезти и утилизировать отходы: строительный и бытовой мусор и пищевые отходы ресторанов</p>
+						<span>от 4000 р.</span>
+					</div>
+					<div class="services-item item">
+						<img src="img/musor.png" class="icon">
+						<h3>Вывоз мусора</h3>
+						<p>«Трафт» направит к вам на помощь профессиональных грузчиков, которые быстро упакуют, а затем установят любое оборудование</p>
+						<span>от 2000 р.</span>
+					</div>
+					<div class="services-item item">
+						<img src="img/taksi.png" class="icon">
+						<h3>Грузовое такси</h3>
+						<p>Удобное такси для вещей — это полторы тонны груза и возможность перевозки пассажиров до 5 посадочных мест</p>
+						<span>от 3000 р.</span>
+					</div>
+				</div>
+				<div id="anchor">
+					<a href="#feedback" class="btn">Заказать услугу</a>
+				</div>
+			</div>
+		</div>
+		<div class="feedback" id="feedback">
+			<h2>Оставить <span class="clr">заявку</span></h2>
+			<hr class="separate1">
+			<div class="feedback-items items">
+				<div class="feedback-item item">
+					<form action="send.php" id="contactForm" method="post">
+						<input type="text" placeholder="Имя" id="sender_name" name="sender_name" title="">
+						<input type="phone" placeholder="Номер телефона" required id="phone" name="phone" title="">
+						<textarea name="message" id="message" placeholder="Ваше обращение"></textarea>
+						<input type="submit" value="Отправить" id="submit" name="submit">
+					</form>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="copyright">
+				<span>TRAFT, 2020</span>
+			</div>
+		</footer>
+	</main>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script type="text/javascript" src="slick/slick.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
